@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="keyboard">
+        <div class="title">
+            <h1>Virtual Keyboard</h1>
+        </div>
+        <div class="container">
+
+            <form class="top">
+                
+                <textarea class="display-typing" cols="30" rows="10"></textarea>
+            </form>
+
+            <div class="clear-backspace">
+                <button class="clear-btn">Clear</button>
+                <button class="caps-btn">Caps Lock</button>
+                <button class="lower-btn">Lowercase</button>
+                <button class="capital-btn">Capitalize</button>
+            </div>
+
+            <div class="characters">
+                <button class="character key exclamation">!</button>
+                <button class="character key at">@</button>
+                <button class="character key hash">#</button>
+                <button class="character key dollar">$</button>
+                <button class="character key percent">%</button>
+                <button class="character key uptick">^</button>
+                <button class="character key ampersand">&</button>
+                <button class="character key astrik">*</button>
+                <button class="character key parenleft">(</button>
+                <button class="character key parenright">)</button>
+            </div>
+
+            <div class="numbers">
+                <div class="row-one">
+                    <button class="key q-key" value="Q">Q</button>
+                    <button class="key w-key" value="W">W</button>
+                    <button class="key e-key" value="E">E</button>
+                    <button class="key r-key" value="R">R</button>
+                    <button class="key t-key" value="T">T</button>
+                    <button class="key y-key">Y</button>
+                    <button class="key u-key">U</button>
+                    <button class="key i-key">I</button>
+                    <button class="key o-key">O</button>
+                    <button class="key p-key">P</button>
+                </div>
+
+                <div class="row-two">
+                    <button class="key a-key">A</button>
+                    <button class="key s-key">S</button>
+                    <button class="key d-key">D</button>
+                    <button class="key f-key">F</button>
+                    <button class="key g-key">G</button>
+                    <button class="key h-key">H</button>
+                    <button class="key j-key">J</button>
+                    <button class="key k-key">K</button>
+                    <button class="key l-key">L</button>
+                    <button class="key semi-key">;</button>
+                </div>
+
+                <div class="row-three">
+                    <button class="key z-key">Z</button>
+                    <button class="key x-key">X</button>
+                    <button class="key c-key">C</button>
+                    <button class="key v-key">V</button>
+                    <button class="key b-key">B</button>
+                    <button class="key n-key">N</button>
+                    <button class="key m-key">M</button>
+                    <button class="key comma-key">,</button>
+                    <button class="key period-key">.</button>
+                    <button class="key slash-key">/</button>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <button class="color">Change Color</button>
+                <button class="spacebar"></button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="/app.js"></script>
+</body>
+</html>
